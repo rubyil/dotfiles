@@ -1,0 +1,83 @@
+*.background:	#070B14
+*.color0:	#070B14
+*.color1:	#0C4C6B
+*.color10:	#124A61
+*.color11:	#525055
+*.color12:	#912B1A
+*.color13:	#126B8B
+*.color14:	#2D5AAC
+*.color15:	#87cedb
+*.color2:	#124A61
+*.color3:	#525055
+*.color4:	#912B1A
+*.color5:	#126B8B
+*.color6:	#2D5AAC
+*.color66:	#070B14
+*.color7:	#87cedb
+*.color8:	#5e9099
+*.color9:	#0C4C6B
+*.foreground:	#87cedb
+*background:	#070B14
+*color0:	#070B14
+*color1:	#0C4C6B
+*color10:	#124A61
+*color11:	#525055
+*color12:	#912B1A
+*color13:	#126B8B
+*color14:	#2D5AAC
+*color15:	#87cedb
+*color2:	#124A61
+*color3:	#525055
+*color4:	#912B1A
+*color5:	#126B8B
+*color6:	#2D5AAC
+*color66:	#070B14
+*color7:	#87cedb
+*color8:	#5e9099
+*color9:	#0C4C6B
+*foreground:	#87cedb
+
+URxvt*background:	#070B14
+URxvt*scrollBar:	false
+URxvt*cursorColor:	#87cedb
+URxvt.urgentOnBell: 	true
+URxvt.depth: 		24
+URxvt.iso14755: 	false
+URxvt*foreground:	#87cedb
+URxvt*saveLines:            2048
+URxvt.scrollBar_right:      false
+URxvt.scrollBar:            false
+URxvt.perl-lib:		/usr/lib/urxvt/perl 
+URxvt.perl-ext-common:	default,matcher,resize-font,url-select,keyboard-select
+URxvt*keysym.M-u:	perl:url-select:select_next
+URxvt*url-select.launcher: /usr/bin/xdg-open
+URxvt*url-select.underline: true
+URxvt*keysym.M-Escape:	keyboard-select:active
+URxvt*matcher.button:	1	 
+URxvt.copyCommand: xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+URxvt.keysym.M-c: perl:clipboard:copy
+URxvt.keysym.M-v: perl:clipboard:paste
+URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+URxvt.keysym.M-s: perl:keyboard-select:search
+URxvt.urlLauncher: firefox-developer-edirion
+URxvt.urlButton: 1
+
+URxvt.font:      xft:FiraCode Nerd Font Mono:style=Regular:pixelsize=14, xft:Noto Color Emoji:style=Regular:pixelsize=14
+URxvt.boldFont: xft:FiraCode Nerd Font Mono:style=Bold:pixelsize=14
+URxvt.transparent:          true
+URxvt.shading:              20 
+URxvt.blurRadius:           5
+URxvt.fading:               30
+URxvt.tabbed.tabbar-bg:     0
+URxvt.tabbed.tabbar-fg:     6
+URxvt.tabbed.tab-bg:        0
+URxvt.tabbed.tab-fg:        5
+
+XClock*background:	#070B14
+XClock*foreground:	#87cedb
+XClock*hourColor:	rgba:87/ce/db/ff
+XClock*majorColor:	rgba:87/ce/db/ff
+XClock*minorColor:	rgba:87/ce/db/ff
+XClock*minuteColor:	rgba:87/ce/db/ff
+XClock*secondColor:	rgba:87/ce/db/ff
