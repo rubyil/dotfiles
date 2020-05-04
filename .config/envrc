@@ -1,0 +1,4 @@
+export PATH=~/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:~/scripts:$HOME/.local/bin:$HOME/go/bin:
+#export GDK_BACKEND=Wayland
+#export MOZ_ENABLE_WAYLAND=1
+export NPM_CONFIG_PREFIX=~/.npm-global
